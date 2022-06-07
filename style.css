@@ -1,0 +1,186 @@
+header.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url(./images/design-assets/bgk-header.png);
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+div.navBar-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  word-spacing: 10px;
+  color: white;
+  width: 1100px;
+  height: 70px;
+  margin-left: 250px;
+}
+
+div.navBar-left {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  color: rgb(110, 179, 179);
+}
+
+div.navBar-right {
+  justify-content: flex-start;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#home {
+  color: aqua;
+}
+
+div.heroText {
+  display: inline-block;
+  align-content: center;
+  color: white;
+  width: 100%;
+}
+
+h1#hero-title {
+  color: white;
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+}
+
+h2#blue-colored-line {
+  border-bottom: 1px solid;
+  border-color: rgb(110, 179, 179);
+  align-items: center;
+  width: 3%;
+  margin-left: 50%;
+}
+p.hero-text {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  width: 1100px;
+  position: relative;
+  word-spacing: 2px;
+  column-gap: 15px;
+  margin-left: 10%;
+}
+
+button {
+  justify-content: center;
+  text-align: center;
+  border-color: rgb(110, 179, 179);
+  color: rgb(110, 179, 179);
+  font-size: small;
+  background-color: rgb(77, 77, 123);
+  margin-top: 50px;
+  margin-left: 48%;
+}
+
+div.story {
+  display: flex;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-content: center;
+  margin-left: 33%;
+}
+
+div.image-container {
+  width: 50%;
+  justify-content: flex-end;
+}
+
+img.image-story {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+div.story-title {
+  width: 50%;
+  align-items: flex-start;
+}
+
+h2 {
+  font-size: large;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: x-small;
+  justify-items: left;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+button.learn-button {
+  justify-content: flex-start;
+  border-color: rgb(110, 179, 179);
+  color: rgb(110, 179, 179);
+  font-size: small;
+  font-weight: 200;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 1%;
+}
+
+div.video-container {
+  background-image: url(./images/design-assets/bgk-middle.png);
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+div#imageAndTextContainer {
+  align-content: center;
+  color: white;
+  margin-top: 150px;
+}
+
+img.play {
+  margin-top: 20px;
+  margin-left: 48%;
+}
+
+section#watch {
+  color: white;
+  margin-left: 46%;
+  margin-top: 10px;
+}
+
+div.expert-section {
+  height: 300px;
+}
+
+div.team-container {
+  background-image: url(./images/design-assets/bgk-header.png);
+  width: 101.5%;
+  height: 500px;
+  margin-top: 5px;
+  margin-left: -10px;
+}
+
+div.review-container {
+  height: 300px;
+}
+
+footer.container {
+  background-image: url(./images/design-assets/bgk-footer.png);
+  height: 300px;
+  width: 101.5%;
+  margin-top: 5px;
+  margin-left: -10px;
+}
