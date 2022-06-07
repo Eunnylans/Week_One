@@ -162,7 +162,101 @@ section#watch {
 }
 
 div.expert-section {
-  height: 300px;
+  height: 550px;
+  margin-bottom: 30px;
+}
+h2#expertise-section {
+  margin-left: 50%;
+}
+
+h3#expert-title {
+  color: gray;
+  font-size: smaller;
+  margin-left: 40%;
+}
+
+h4#expert-line {
+  border-bottom: 1px solid;
+  border-color: rgb(110, 179, 179);
+  align-items: center;
+  width: 3%;
+  margin-left: 48%;
+}
+
+div.expert-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 20%;
+  margin-left: 30%;
+}
+p {
+  word-wrap: break-word;
+  font-size: small;
+  text-align: center;
+}
+
+section#web-design {
+  flex-direction: column;
+  align-content: center;
+  box-sizing: border-box;
+  border-width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+section#branding-indentity {
+  align-content: center;
+  box-sizing: border-box;
+  border-width: 200px;
+  height: 200px;
+  margin-top: 10%;
+  align-content: flex-end;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+section#mobile-app {
+  align-content: center;
+  box-sizing: border-box;
+  border-width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+section#search-engine {
+  align-content: center;
+  box-sizing: border-box;
+  border-width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+section#game-development {
+  align-content: center;
+  box-sizing: border-box;
+  border-width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+section#love {
+  align-content: center;
+  box-sizing: border-box;
+  border-width: 200px;
+  height: 200px;
+}
+
+h4 {
+  margin: 10px;
+  font-weight: bold;
+  margin-top: 3%;
+  text-align: center;
+}
+
+img {
+  justify-content: center;
+  margin-bottom: 10%;
+  margin-left: 30%;
 }
 
 div.team-container {
